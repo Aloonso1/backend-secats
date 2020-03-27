@@ -1,0 +1,80 @@
+{ 
+    "_id" : ObjectId("5e7c8945b449ca03ec98db4d"), 
+    "createat" : ISODate("2020-03-26T10:51:49.339+0000"), 
+    "email" : "alonso@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d3dcc683b184f78535468"), 
+    "createat" : ISODate("2020-03-26T23:42:04.925+0000"), 
+    "email" : "alonso@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d3ff2be7f724350033033"), 
+    "createat" : ISODate("2020-03-26T23:51:14.768+0000"), 
+    "email" : "alonsoedit@gmail.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d4cb5144b9d378093ff17"), 
+    "createat" : ISODate("2020-03-27T00:45:41.850+0000"), 
+    "email" : "alonsomartes@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d4cbb144b9d378093ff18"), 
+    "createat" : ISODate("2020-03-27T00:45:47.634+0000"), 
+    "email" : "perryberto@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d4cc1144b9d378093ff19"), 
+    "createat" : ISODate("2020-03-27T00:45:53.533+0000"), 
+    "email" : "agentep@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d4cc7144b9d378093ff1a"), 
+    "createat" : ISODate("2020-03-27T00:45:59.433+0000"), 
+    "email" : "jerry@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d4cd9144b9d378093ff1b"), 
+    "createat" : ISODate("2020-03-27T00:46:17.193+0000"), 
+    "email" : "gerardo@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d4ce3144b9d378093ff1c"), 
+    "createat" : ISODate("2020-03-27T00:46:27.127+0000"), 
+    "email" : "ivanovich@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d4cea144b9d378093ff1d"), 
+    "createat" : ISODate("2020-03-27T00:46:34.700+0000"), 
+    "email" : "ivanyvienen@alonso.com", 
+    "points" : NumberInt(10), 
+    "idUserInfo" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "__v" : NumberInt(0)
+}

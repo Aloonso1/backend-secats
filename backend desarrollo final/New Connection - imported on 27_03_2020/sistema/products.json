@@ -1,0 +1,78 @@
+{ 
+    "_id" : ObjectId("5e7c650e432f96567cf0b933"), 
+    "title" : "Ahora si mas basico que nunca4", 
+    "description" : "Mas basico que ayer menos que mañana", 
+    "image" : "EiYgtL0Qx9mVBE565xTw6IfT.jpg", 
+    "price_buy" : NumberInt(500), 
+    "price_sell" : NumberInt(1000), 
+    "stock" : NumberInt(5), 
+    "listofproducts" : "DS2AE7164NA", 
+    "moredetails" : "Ley mas no pendejo", 
+    "idCategory" : ObjectId("5e773151a11cde1a88239bbe"), 
+    "points" : NumberInt(4), 
+    "notes" : "Vender esta camara en paquetes de 4", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7c6512432f96567cf0b934"), 
+    "title" : "PAQUETE BÁSICO 1", 
+    "description" : "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder", 
+    "image" : null, 
+    "price_sell" : NumberInt(4899), 
+    "stock" : NumberInt(21), 
+    "listofproducts" : "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.", 
+    "moredetails" : "Monitorea desde móvil, tableta o computadora", 
+    "idCategory" : ObjectId("5e773151a11cde1a88239bbe"), 
+    "points" : NumberInt(5), 
+    "notes" : "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7c84eee1c26903c8b107e5"), 
+    "image" : null, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d3c0f683b184f78535465"), 
+    "title" : "Domo PTZ / IR(100mts) 700TVL PTZ 23X zoom optico, WDR día / noche real ICR de alta velocidad 0.1° a 160°/s.", 
+    "description" : "• CCD 1/4\" SONY 960H.\n• 700 líneas de resolución Color.\n• 750 líneas de resolución B/N.\n• Función Día/Noche Real ICR.\n• 100 m de visión con LEDs IR.\n• Control de ganancia IR (dependiendo del zoom).\n• Zoom de 368X, (23X óptico y 16X digital).\n• Zoom de 576X, (36X óptico y 16X digital).\n• Iluminación mínima a color 0.2 Lux, F1.6\n• Iluminación mínima a B/N 0.02 Lux, F1.6\n• Iluminación mínima 0 Lux con IR.\n• 23X Longitud focal de 4 a 92 mm.\n• 36X Longitud focal de 3.3 a 119 mm.\n• 24 zonas de privacidad (soporta 8 en la misma imagen). ", 
+    "image" : "GTKfpG5SHsIW4W0AL7G0wNGB.jpg", 
+    "price_buy" : NumberInt(500), 
+    "price_sell" : NumberInt(1000), 
+    "stock" : NumberInt(112), 
+    "listofproducts" : "DS2AE7164NA", 
+    "moredetails" : "Funciones Generales \n\n• Giro de 360° continuos.\n• 256 Presets, 8 Patrols, 4 patrones, función crucero.\n• Auto Flip 180o .\n• Tareas Calendarizadas: Preset / Patrol / Pattern / Pan scan / Tilt scan.\n• Congelado de imagen entre presets.\n• Velocidad de Scan programable.\n• Función de PARK ACTION (función de casa).\n• Velocidad de Presets: 240o /s\n• Velocidad de Paneo:0.1o - 160o/s.", 
+    "idCategory" : ObjectId("5e773151a11cde1a88239bbe"), 
+    "points" : NumberInt(4), 
+    "notes" : "Vender esta camara en paquetes de 4", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d3c26683b184f78535466"), 
+    "title" : "PAQUETE BÁSICO 1", 
+    "description" : "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder", 
+    "image" : null, 
+    "price_sell" : NumberInt(4899), 
+    "stock" : NumberInt(5), 
+    "listofproducts" : "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.", 
+    "moredetails" : "Monitorea desde móvil, tableta o computadora", 
+    "idCategory" : ObjectId("5e773151a11cde1a88239bbe"), 
+    "points" : NumberInt(5), 
+    "notes" : "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d3c3d683b184f78535467"), 
+    "title" : "PAQUETE BÁSICO 1", 
+    "description" : "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder", 
+    "image" : null, 
+    "price_buy" : NumberInt(4000), 
+    "price_sell" : NumberInt(4899), 
+    "stock" : NumberInt(5), 
+    "listofproducts" : "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.", 
+    "moredetails" : "Monitorea desde móvil, tableta o computadora", 
+    "idCategory" : ObjectId("5e773151a11cde1a88239bbe"), 
+    "points" : NumberInt(5), 
+    "notes" : "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras", 
+    "__v" : NumberInt(0)
+}

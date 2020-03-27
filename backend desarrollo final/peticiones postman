@@ -1,0 +1,1307 @@
+{
+	"info": {
+		"_postman_id": "94d25803-fd15-4e93-b1fb-759a3bd6f50d",
+		"name": "sistema",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "http://localhost:4201/api/logup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "luneson",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "alonso23@alonso.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "contraseña",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "dibujito",
+									"type": "text"
+								},
+								{
+									"key": "role",
+									"value": "Admin",
+									"type": "text"
+								},
+								{
+									"key": "gettoken",
+									"value": "true",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/logup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"logup"
+							]
+						},
+						"description": "registro de usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:4201/api/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "sabadongongongongo",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "alonso20@alonso.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "contraseña",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "dibujito",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "role",
+									"value": "Admin",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "gettoken",
+									"value": "true",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"login"
+							]
+						},
+						"description": "iniciar sesion"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Modificar Categoria",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Apocalypse",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Seguimiento vehicular",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/category/edit/5e79d463dcb9d106d878fc30",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"category",
+								"edit",
+								"5e79d463dcb9d106d878fc30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Categoria",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Videovigilancia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Camaras de seguridad y asi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/category/5e773151a11cde1a88239bbe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"category",
+								"5e773151a11cde1a88239bbe"
+							]
+						},
+						"description": "Buscar categoria por id"
+					},
+					"response": []
+				},
+				{
+					"name": "Filtrar Categorias",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Videovigilancia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Camaras de seguridad y asi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/categories/radios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"categories",
+								"radios"
+							]
+						},
+						"description": "Buscar categoria por id"
+					},
+					"response": []
+				},
+				{
+					"name": "Listar todas las categorias",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Videovigilancia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Camaras de seguridad y asi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/categories/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"categories",
+								""
+							]
+						},
+						"description": "Buscar categoria por id"
+					},
+					"response": []
+				},
+				{
+					"name": "Registro Categoria",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "GPS lunes",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Little Jesus",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/category/logup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"category",
+								"logup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Categoria",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "la magia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Seguimiento vehicular",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/category/delete/5e79d463dcb9d106d878fc30",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"category",
+								"delete",
+								"5e79d463dcb9d106d878fc30"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Registro Producto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/Luis Alonso/Desktop/images15-0eb6f72401292d757e21accded47df7d.jpg"
+								},
+								{
+									"key": "title",
+									"value": "Domo PTZ / IR(100mts) 700TVL PTZ 23X zoom optico, WDR día / noche real ICR de alta velocidad 0.1° a 160°/s.",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "• CCD 1/4\" SONY 960H.\n• 700 líneas de resolución Color.\n• 750 líneas de resolución B/N.\n• Función Día/Noche Real ICR.\n• 100 m de visión con LEDs IR.\n• Control de ganancia IR (dependiendo del zoom).\n• Zoom de 368X, (23X óptico y 16X digital).\n• Zoom de 576X, (36X óptico y 16X digital).\n• Iluminación mínima a color 0.2 Lux, F1.6\n• Iluminación mínima a B/N 0.02 Lux, F1.6\n• Iluminación mínima 0 Lux con IR.\n• 23X Longitud focal de 4 a 92 mm.\n• 36X Longitud focal de 3.3 a 119 mm.\n• 24 zonas de privacidad (soporta 8 en la misma imagen). ",
+									"type": "text"
+								},
+								{
+									"key": "price_buy",
+									"value": "500",
+									"type": "text"
+								},
+								{
+									"key": "price_sell",
+									"value": "1000",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "listofproducts",
+									"value": "DS2AE7164NA",
+									"type": "text"
+								},
+								{
+									"key": "moredetails",
+									"value": "Funciones Generales \n\n• Giro de 360° continuos.\n• 256 Presets, 8 Patrols, 4 patrones, función crucero.\n• Auto Flip 180o .\n• Tareas Calendarizadas: Preset / Patrol / Pattern / Pan scan / Tilt scan.\n• Congelado de imagen entre presets.\n• Velocidad de Scan programable.\n• Función de PARK ACTION (función de casa).\n• Velocidad de Presets: 240o /s\n• Velocidad de Paneo:0.1o - 160o/s.",
+									"type": "text"
+								},
+								{
+									"key": "idCategory",
+									"value": "5e773151a11cde1a88239bbe",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "Vender esta camara en paquetes de 4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Product/logup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Product",
+								"logup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Registro Producto Sin Imagen",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "PAQUETE BÁSICO 1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder",
+									"type": "text"
+								},
+								{
+									"key": "price_buy",
+									"value": "4000",
+									"type": "text"
+								},
+								{
+									"key": "price_sell",
+									"value": "4899",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "listofproducts",
+									"value": "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.",
+									"type": "text"
+								},
+								{
+									"key": "moredetails",
+									"value": "Monitorea desde móvil, tableta o computadora",
+									"type": "text"
+								},
+								{
+									"key": "idCategory",
+									"value": "5e773151a11cde1a88239bbe",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Product/logup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Product",
+								"logup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar todos los productos",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Videovigilancia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Camaras de seguridad y asi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Products/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Products",
+								""
+							]
+						},
+						"description": "Buscar categoria por id"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Producto",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Videovigilancia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Camaras de seguridad y asi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/product/5e7b2d587418a6328c8c23a3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"product",
+								"5e7b2d587418a6328c8c23a3"
+							]
+						},
+						"description": "Buscar categoria por id"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Imagen Por Producto",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "Videovigilancia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Camaras de seguridad y asi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/product/getimage/null",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"product",
+								"getimage",
+								"null"
+							]
+						},
+						"description": "Buscar categoria por id"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar producto",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/Luis Alonso/Desktop/sun-ken-rock-manga-ken-black-and-white.jpg"
+								},
+								{
+									"key": "title",
+									"value": "Ahora si mas basico que nunca4",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Mas basico que ayer menos que mañana",
+									"type": "text"
+								},
+								{
+									"key": "price_buy",
+									"value": "500",
+									"type": "text"
+								},
+								{
+									"key": "price_sell",
+									"value": "1000",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "listofproducts",
+									"value": "DS2AE7164NA",
+									"type": "text"
+								},
+								{
+									"key": "moredetails",
+									"value": "Ley mas no pendejo",
+									"type": "text"
+								},
+								{
+									"key": "idCategory",
+									"value": "5e773151a11cde1a88239bbe",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "4",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "Vender esta camara en paquetes de 4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Product/edit/5e7c650e432f96567cf0b933/O0tFRZM1PptI3p6ZPCj9-WRN.jpg",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Product",
+								"edit",
+								"5e7c650e432f96567cf0b933",
+								"O0tFRZM1PptI3p6ZPCj9-WRN.jpg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar producto sin imagen",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "sin sentimiento el corazon desierto",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder",
+									"type": "text"
+								},
+								{
+									"key": "price_bull",
+									"value": "4000",
+									"type": "text"
+								},
+								{
+									"key": "price_sell",
+									"value": "4899",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "listofproducts",
+									"value": "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.",
+									"type": "text"
+								},
+								{
+									"key": "moredetails",
+									"value": "Monitorea desde móvil, tableta o computadora",
+									"type": "text"
+								},
+								{
+									"key": "idCategory",
+									"value": "5e773151a11cde1a88239bbe",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Product/edit/5e7c650e432f96567cf0b933",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Product",
+								"edit",
+								"5e7c650e432f96567cf0b933"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar stock",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "stock",
+									"value": "114",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Product/updatestock/5e7d3c0f683b184f78535465",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Product",
+								"updatestock",
+								"5e7d3c0f683b184f78535465"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Producto",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "la magia",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Seguimiento vehicular",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/product/delete/5e7c2ea190c5f90c0c35cba7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"product",
+								"delete",
+								"5e7c2ea190c5f90c0c35cba7"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Client",
+			"item": [
+				{
+					"name": "Registro Cliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "ivanyvienen@alonso.com",
+									"type": "text"
+								},
+								{
+									"key": "idUserInfo",
+									"value": "5e7c87fad501174fe4b17b64",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/client/logup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"client",
+								"logup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Cliente",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "alonsoedit@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "idUserInfo",
+									"value": "5e7c87fad501174fe4b17b64",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Client/edit/5e7d3ff2be7f724350033033",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Client",
+								"edit",
+								"5e7d3ff2be7f724350033033"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Cliente",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "PAQUETE BÁSICO 1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder",
+									"type": "text"
+								},
+								{
+									"key": "price_bull",
+									"value": "4000",
+									"type": "text"
+								},
+								{
+									"key": "price_sell",
+									"value": "4899",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "listofproducts",
+									"value": "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.",
+									"type": "text"
+								},
+								{
+									"key": "moredetails",
+									"value": "Monitorea desde móvil, tableta o computadora",
+									"type": "text"
+								},
+								{
+									"key": "idCategory",
+									"value": "5e773151a11cde1a88239bbe",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/Client/delete/5e7d4b3e6d70b4377483faa4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"Client",
+								"delete",
+								"5e7d4b3e6d70b4377483faa4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Clientes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "PAQUETE BÁSICO 1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder",
+									"type": "text"
+								},
+								{
+									"key": "price_bull",
+									"value": "4000",
+									"type": "text"
+								},
+								{
+									"key": "price_sell",
+									"value": "4899",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "listofproducts",
+									"value": "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.",
+									"type": "text"
+								},
+								{
+									"key": "moredetails",
+									"value": "Monitorea desde móvil, tableta o computadora",
+									"type": "text"
+								},
+								{
+									"key": "idCategory",
+									"value": "5e773151a11cde1a88239bbe",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/clients/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"clients",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filtrar Clientes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "PAQUETE BÁSICO 1",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "1 AÑO DE GARANTÍA\nKit de 4 camaras HD, videograbador y fuente de poder",
+									"type": "text"
+								},
+								{
+									"key": "price_bull",
+									"value": "4000",
+									"type": "text"
+								},
+								{
+									"key": "price_sell",
+									"value": "4899",
+									"type": "text"
+								},
+								{
+									"key": "stock",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "listofproducts",
+									"value": "1 DVR:\n\nDVR 4 canales de vídeo en 720p + 1 IP\nSoporta 1 HDD de hasta 6 TB (NO INCLUIDO).\nSoporta protocolo coaxitron para PTZ TURBOHD 1080p.\nSalida de vídeo en Full HD (VGA y HDMI, salida simultanea)\n1 Puerto de red RJ45 ( 10 / 100 Mbps)\n4 Cámaras:\n\nCámara bala con resolución HD 720p.\nFabricadas en policarbonato\n20 mts IR EXIR (visión nocturna).\nProtección IP66.\nFuente profesional de 3.3 amp:\n\nAlimenta  DVR y las 4 cámaras\nIncluye 4 cables para exterior de 18 metros cada uno.",
+									"type": "text"
+								},
+								{
+									"key": "moredetails",
+									"value": "Monitorea desde móvil, tableta o computadora",
+									"type": "text"
+								},
+								{
+									"key": "idCategory",
+									"value": "5e773151a11cde1a88239bbe",
+									"type": "text"
+								},
+								{
+									"key": "points",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "notes",
+									"value": "Cuando pidan este paquete explicare que se puede expandir hasta con 8 camaras",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/clients/ivan",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"clients",
+								"ivan"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "User Info",
+			"item": [
+				{
+					"name": "Registro informacion de usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Ozuna",
+									"type": "text"
+								},
+								{
+									"key": "dni",
+									"value": "vengo para ver si me olvido",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/userinfo/logup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"userinfo",
+								"logup"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Venta",
+			"item": [
+				{
+					"name": "Registrar venta",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idClient\": \"5e7c8945b449ca03ec98db4d\",\n\t\"idUser\": \"5e766045d5b9b4118c06205e\",\n\t\"details\":[\n\t\t{\"idProduct\": \"5e7d3c0f683b184f78535465\",\n\t\t\"quantity\": \"7\"},\n\t\t{\"idProduct\": \"5e7c6512432f96567cf0b934\",\n\t\t\"quantity\": \"8\"}\n\t\t]\n\t\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/sale/logup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"sale",
+								"logup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener venta",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idclient\": \"5e7c8945b449ca03ec98db4d\",\n\t\"iduser\": \"5e766045d5b9b4118c06205e\",\n\t\"details\":[\n\t\t{\"idproduct\": \"5e7c650e432f96567cf0b933\",\n\t\t\"quantity\": \"7\"},\n\t\t{\"idproduct\": \"5e7c6512432f96567cf0b934\",\n\t\t\"quantity\": \"8\"}\n\t\t]\n\t\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4201/api/sale/data/5e7d6fefcf136350e8bbbd43",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4201",
+							"path": [
+								"api",
+								"sale",
+								"data",
+								"5e7d6fefcf136350e8bbbd43"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

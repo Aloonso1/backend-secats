@@ -1,0 +1,12 @@
+{ 
+    "_id" : ObjectId("5e7c87cf0e48524fd807b9d3"), 
+    "name" : "Alonsillo el pillo", 
+    "dni" : "de mi vida te bote", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7c87fad501174fe4b17b64"), 
+    "name" : "Ozuna", 
+    "dni" : "vengo para ver si me olvido", 
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,27 @@
+{ 
+    "_id" : ObjectId("5e766045d5b9b4118c06205e"), 
+    "name" : "sabadongongongongo", 
+    "password" : "$2a$10$sAokdLvhAHd2NYT4zs0Ev.ZkO70e2d7roHz/d4cN.wUbhkYtWwMv6", 
+    "email" : "alonso@alonso.com", 
+    "image" : "dibujito", 
+    "role" : "Admin", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e79715dbcde800c60f0b0b1"), 
+    "name" : "dormingo", 
+    "password" : "$2a$10$YkF4dtDi5Ia2ozzNoujmje/AUgIimy7ik6liKwXzdg5Xisg5J4P2K", 
+    "email" : "alonso20@alonso.com", 
+    "image" : "dibujito", 
+    "role" : "Admin", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e797176bcde800c60f0b0b2"), 
+    "name" : "luneson", 
+    "password" : "$2a$10$zEaNEjvmPVuQUGZFRq3.euPH16QiEhnTJnbYyRUcWueJe25r2GFr6", 
+    "email" : "alonso23@alonso.com", 
+    "image" : "dibujito", 
+    "role" : "Admin", 
+    "__v" : NumberInt(0)
+}

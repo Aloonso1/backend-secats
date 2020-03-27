@@ -1,0 +1,42 @@
+{ 
+    "_id" : ObjectId("5e773151a11cde1a88239bbe"), 
+    "title" : "Videovigilancia", 
+    "description" : "Camaras de seguridad y asi", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7970737c6b602d9c82ec91"), 
+    "title" : "Gps jueves", 
+    "description" : "Seguimiento vehicular", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7972add3954b2b9c8fb0d5"), 
+    "title" : "Control de acesso", 
+    "description" : "Controles Biometricos", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e79c4e321fc6b1c9cc3430a"), 
+    "title" : "Radios", 
+    "description" : "Reparacion, configuracion y venta de radios", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e79c74b21fc6b1c9cc3430b"), 
+    "title" : "Intrusión", 
+    "description" : "PAQUETE DE CERCA ELECTRIFICADA", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e79d28b2e632a25207db8bf"), 
+    "title" : "Intrusión", 
+    "description" : "PAQUETE DE CERCA ELECTRIFICADA", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e79dd313a25502524af3c59"), 
+    "title" : "GPS lunes", 
+    "description" : "Little Jesus", 
+    "__v" : NumberInt(0)
+}

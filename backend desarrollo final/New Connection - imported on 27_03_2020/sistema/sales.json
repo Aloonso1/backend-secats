@@ -1,0 +1,14 @@
+{ 
+    "_id" : ObjectId("5e7d5f1619f51803b8f2d572"), 
+    "date" : ISODate("2020-03-27T02:04:06.071+0000"), 
+    "idClient" : ObjectId("5e7c8945b449ca03ec98db4d"), 
+    "idUser" : ObjectId("5e766045d5b9b4118c06205e"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d6fefcf136350e8bbbd43"), 
+    "date" : ISODate("2020-03-27T03:15:59.978+0000"), 
+    "idClient" : ObjectId("5e7c8945b449ca03ec98db4d"), 
+    "idUser" : ObjectId("5e766045d5b9b4118c06205e"), 
+    "__v" : NumberInt(0)
+}

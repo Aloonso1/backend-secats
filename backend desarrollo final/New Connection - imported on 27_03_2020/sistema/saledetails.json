@@ -1,0 +1,28 @@
+{ 
+    "_id" : ObjectId("5e7d5f1619f51803b8f2d573"), 
+    "idProduct" : ObjectId("5e7c650e432f96567cf0b933"), 
+    "quantity" : NumberInt(7), 
+    "sale" : ObjectId("5e7d5f1619f51803b8f2d572"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d5f1619f51803b8f2d574"), 
+    "idProduct" : ObjectId("5e7c6512432f96567cf0b934"), 
+    "quantity" : NumberInt(8), 
+    "sale" : ObjectId("5e7d5f1619f51803b8f2d572"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d6ff0cf136350e8bbbd44"), 
+    "idProduct" : ObjectId("5e7d3c0f683b184f78535465"), 
+    "quantity" : NumberInt(7), 
+    "sale" : ObjectId("5e7d6fefcf136350e8bbbd43"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e7d6ff0cf136350e8bbbd45"), 
+    "idProduct" : ObjectId("5e7c6512432f96567cf0b934"), 
+    "quantity" : NumberInt(8), 
+    "sale" : ObjectId("5e7d6fefcf136350e8bbbd43"), 
+    "__v" : NumberInt(0)
+}
